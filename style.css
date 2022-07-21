@@ -1,0 +1,153 @@
+/*MOBILE*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+
+main {
+    width: 450px;
+    margin: 100px auto;
+    background: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    box-shadow: 0 22px 22px hsla(245, 75%, 52%, .2);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0 0;
+}
+
+.main {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 6px 0 32px 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.info {
+    margin: 0 0 26px 0;
+    line-height: 1.5;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.content {
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.planinfo h4, .planinfo p {
+    margin: 0;
+}
+
+.planinfo h4 {
+    margin-bottom: 14px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.planinfo p {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.planinfo {
+    margin-left: 20px;
+}
+
+.content span {
+    margin-left: 85px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: hsl(245, 75%, 52%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.content a:hover {
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 18px 0;
+    margin-bottom: 35px;
+    border: none;
+    background: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 22px 22px hsla(245, 75%, 52%, .2);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover {
+    background: hsla(245, 75%, 52%, .7);
+    cursor: pointer;
+}
+
+.ordercancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ordercancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 375px){
+    body {
+        background: url(./images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    main {
+        width: 325px;
+    }
+
+    .main {
+        padding: 22px;
+        color: black;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 12px;
+    }
+
+    .content span {
+        margin-left: 36px;
+    }
+}
