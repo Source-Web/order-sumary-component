@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Order Summary Card](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/responsive-nft-product-preview-card-using-css-flex-box-88Fo1Ar5jY)
-- Live Site URL: [Order Summary Card](https://source-web.github.io/nft-preview-card/)
+- Live Site URL: [Order Summary Card](https://source-web.github.io/order-sumary-component/)
 
 ## My process
 
